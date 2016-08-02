@@ -26,3 +26,10 @@ create.addEventListener("click", function(event) {
 		console.log('no')
 	}
 })
+
+
+var rm = document.getElementsByClassName('remove-item')[0];
+	rm.addEventListener("click", function(event)
+	{
+		confirm("are you shure?");
+	})
